@@ -110,8 +110,8 @@ function Popup({ onClose, ...props }) {
               )}
             </div>
           ) : null}
-          <button type='submit' className='buttonSubmit'>
-            Sign In
+          <button type='submit' className='buttonSubmit' onClick={onClose}>
+            Enviar
           </button>
         </form>
       </DialogContent>
